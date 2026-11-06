@@ -63,9 +63,9 @@ public class TradingServiceTests
     public void Buy_ComValorAbaixoDaFracaoMinima_DeveLancarInvalidOperationException()
     {
         var carteira = new Wallet(1_000m, 0m);
-        var mercado = new MarketQuote(350_000m);
+        var mercado = new MarketQuote(10_000_000m);
 
-        // R$ 0,01 / R$ 350.000,00 = 0,0000000000285 BTC -> arredonda para 0 satoshis
+        // R$ 0,01 / R$ 10.000.000,00 = 0,000000001 BTC -> arredonda para 0 satoshis
         Assert.Throws<InvalidOperationException>(() => _servico.Buy(carteira, mercado, 0.01m));
     }
 
