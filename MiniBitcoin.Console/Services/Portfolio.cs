@@ -1,4 +1,6 @@
-namespace MiniBitcoin.Console;
+using MiniBitcoin.Console.Domain;
+
+namespace MiniBitcoin.Console.Services;
 
 /// <summary>
 /// Fachada de gestão do portfólio: integra a carteira, a cotação de mercado e

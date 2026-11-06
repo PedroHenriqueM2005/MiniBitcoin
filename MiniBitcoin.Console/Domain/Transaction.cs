@@ -1,4 +1,4 @@
-namespace MiniBitcoin.Console;
+namespace MiniBitcoin.Console.Domain;
 
 /// <summary>Tipo de operação registrada no extrato.</summary>
 public enum TransactionType

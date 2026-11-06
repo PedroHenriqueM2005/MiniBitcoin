@@ -1,4 +1,4 @@
-namespace MiniBitcoin.Console;
+namespace MiniBitcoin.Console.Domain;
 
 /// <summary>
 /// Cotação de mercado do Bitcoin (simulada e atualizável no sistema).

@@ -1,4 +1,5 @@
-using MiniBitcoin.Console;
+using MiniBitcoin.Console.Domain;
+using MiniBitcoin.Console.Services;
 using Xunit;
 
 namespace MiniBitcoin.Tests;

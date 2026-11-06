@@ -1,4 +1,4 @@
-namespace MiniBitcoin.Console;
+namespace MiniBitcoin.Console.Domain;
 
 /// <summary>
 /// Entidade Carteira: mantém o saldo em moeda fiduciária (BRL) e o saldo em

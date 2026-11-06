@@ -1,5 +1,6 @@
 using System.Globalization;
-using MiniBitcoin.Console;
+using MiniBitcoin.Console.Domain;
+using MiniBitcoin.Console.Services;
 
 // ============================================================================
 //  MiniBitcoin — Carteira digital de Bitcoin (aplicação de console)

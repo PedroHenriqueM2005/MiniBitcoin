@@ -1,4 +1,6 @@
-namespace MiniBitcoin.Console;
+using MiniBitcoin.Console.Domain;
+
+namespace MiniBitcoin.Console.Services;
 
 /// <summary>
 /// Extrato/Histórico de transações da carteira: registra cada operação de

@@ -1,4 +1,6 @@
-namespace MiniBitcoin.Console;
+using MiniBitcoin.Console.Domain;
+
+namespace MiniBitcoin.Console.Services;
 
 /// <summary>
 /// Serviço que executa ordens de compra e venda de Bitcoin com base na
