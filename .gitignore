@@ -1,0 +1,19 @@
+# Resultados de build do .NET
+[Bb]in/
+[Oo]bj/
+
+# Diretórios e arquivos de IDE
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache/
+*.sln.docstates
+
+# Resultados de testes
+TestResults/
+[Ll]ogs/
+
+# Pacotes NuGet restaurados localmente
+*.nupkg
+packages/
